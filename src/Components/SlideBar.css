@@ -1,0 +1,19 @@
+.img34{
+  height: 600px !important;
+  width: 100% !important;
+}
+
+
+
+@media (max-width:520px) {
+ .img34 {
+   height:250px !important;
+   width: 100%  !important;
+   
+
+    }
+} 
+
+
+
+

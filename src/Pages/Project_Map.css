@@ -1,0 +1,8 @@
+@media (max-width:320px) {
+.map_container{
+   width: 100%  !important;
+   height: 400px  !important; 
+   border: 2px solid  #FF8000 ;
+   }
+  
+}

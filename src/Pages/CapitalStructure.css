@@ -1,0 +1,36 @@
+
+.capital_heading{
+    text-align:justify;
+    color: #FF8000;
+    font-size: xx-large;
+    margin-top: 50px;
+    
+}
+.heading87{
+    font-size: medium !important;
+    color: black !important;
+}
+.capital_tbody tr td{
+    font-size: smaller !important;
+}
+.capital_thead tr th{
+    font-size:small !important;
+}
+.capital_container{
+    margin-bottom: 30px !important;
+  
+}
+@media (min-width:320px) and (max-width:450px) {
+    .capital_heading{
+        font-size: large !important;
+    }
+    .table{
+        text-align: center;
+        margin-left: -3px;
+    }
+}
+@media (min-width:375px) and (max-width:450px) {
+.table{
+    margin-left:0px !important;
+}
+}

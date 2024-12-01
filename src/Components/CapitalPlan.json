@@ -1,0 +1,77 @@
+[
+    
+{
+            "S.No":"A.",
+            "Particulars":"Loan Equity",
+            "Crore Npr.":"",
+            "%":""
+ },
+ {
+    "S.No":"1.",
+    "Particulars":"Total loan",
+    "Crore Npr.":"300.00",
+    "%":"75%"
+ },
+ {
+    "S.No":"2.",
+    "Particulars":"Total Equity",
+    "Crore Npr.":"100.00",
+    "%":"25%"
+ },
+ {
+    "S.No":"",
+    "Particulars":"Total Project Cost(With IDC)",
+    "Crore Npr.":"400.00",
+    "%":"100%"
+ },
+ {
+    "S.No":"B.",
+    "Particulars":"Equity Plan",
+    "Crore Npr.":"",
+    "%":""
+ },
+ {
+    "S.No":"1.",
+    "Particulars":"Promoter's Equity",
+    "Crore Npr.":"70.00",
+    "%":"70%"
+ },
+ {
+    "S.No":"2.",
+    "Particulars":"Public Equity",
+    "Crore Npr.":"30.00",
+    "%":"30%"
+ },
+ {
+    "S.No":"",
+    "Particulars":"Total Equity",
+    "Crore Npr.":"100.00",
+    "%":"100%"
+ },
+ {
+    "S.No":"-",
+    "Particulars":"Final Equity",
+    "Crore Npr.":"",
+    "%":""
+ },
+ {
+    "S.No":"1.",
+    "Particulars":"Promoters",
+    "Crore Npr.":"70.00",
+    "%":"70%"
+ },
+ {
+    "S.No":"2.",
+    "Particulars":"IPO-Local people",
+    "Crore Npr.":"10.00",
+    "%":"10%"
+
+ },
+ {
+    "S.No":"3.",
+    "Particulars":"IPO-General Public",
+    "Crore Npr.":"20.00",
+    "%":"20%"
+ }   
+]
+

@@ -1,0 +1,26 @@
+.table {
+    border: 5px solid #060672;
+}
+.table th{
+    border: 5px solid #060672;
+    background:#060672;
+}
+.table tr td{
+    border: 5px solid #060672;
+
+}
+.table tr th{
+    border: 5px solid#060672;
+    background-color: #0879a6;
+}
+.financial_heading{
+    text-align:justify;
+    color:  #FF8000;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+@media (min-width:320px) and (max-width:430px) {
+    .financial_heading{
+        font-size: large !important;
+    }
+}

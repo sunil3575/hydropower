@@ -1,0 +1,22 @@
+.table{
+    border: 3px solid #f16807!important;
+}
+.table tr{
+    /* color: #4646d5 !important; */
+    background-color:#f16807 !important;
+                                         
+}
+
+.table .feature_heading{
+    font-size: large;
+    background-color:white !important;
+    color: black !important;
+}
+.feature1_heading
+{
+    text-align:justify !important;
+    color: #f16807;
+    font-size: x-large;
+    margin-top: 50px;
+}
+

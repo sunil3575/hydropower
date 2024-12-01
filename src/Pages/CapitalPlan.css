@@ -1,0 +1,18 @@
+.capital_heading{
+    text-align:justify;
+    color:  #FF8000 !important;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+@media (min-width:320px) and (max-width:450px){
+    .capital_heading{
+        font-size: large !important;
+    }
+    .capital_thead,th{
+        font-size:medium !important;
+
+    }
+    .capital_tbody,td{
+        font-size: small !important;
+    }
+}

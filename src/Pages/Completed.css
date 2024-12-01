@@ -1,0 +1,29 @@
+.completed_heading{
+    text-align:justify;
+    color:  #FF8000;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.paragraph11{
+    justify-self:left !important;
+    font-weight:600!important;
+    font-size:medium !important;
+    list-style-type:square black!important;
+}
+.completed_container{
+    margin-bottom: 30px !important;
+}
+
+@media (min-width:320px) and (max-width:450px) {
+    .completed_heading{
+        color:  #FF8000;
+        font-size:large!important;
+        
+    }
+    .paragraph11{
+        font-size:small!important;
+        text-align: left !important;
+    }
+}
+
+

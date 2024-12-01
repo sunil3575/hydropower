@@ -1,0 +1,47 @@
+.team_row{
+        text-align: center  !important;
+    margin-bottom: 50px !important;
+}
+.second_team_row{
+
+    margin-bottom: 50px !important;
+}
+
+.img4{
+    border-radius: 5PX !important;
+    margin-bottom: 10PX !important;
+}
+
+
+
+
+
+@media (min-width:320px)and (max-width:450px) {
+    
+    .team_row{
+        direction:flex !important;
+        flex-direction:column !important;
+    }
+    .img4{
+        margin-right:60px;
+        margin-left: 60px;
+    }
+    .heading1{
+        text-align: center !important;
+    }
+}
+@media (min-width:368px)  {
+    .img2{
+        margin-right:0px !important;
+    }
+}
+@media (min-width:368px)  {
+    .img2{
+        margin-right:0px !important;
+    }
+}
+@media (min-width:768px) and (max-width:2560px) {
+    .img4{
+    }
+}
+

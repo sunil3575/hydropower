@@ -1,0 +1,33 @@
+.table {
+    border: 2px solid#FF8000;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    text-align:center;
+
+
+}
+.table tr td {
+    border: 2px solid#FF8000!important;
+}
+.table tr th{
+    border: 3px solid  #FF8000 !important;
+    color: white  !important;
+    /* font-size: large; */
+    background: #FF8000 !important;
+}
+ .table tr td:hover{
+    color:  #FF8000;
+}
+
+.project_heading{
+    text-align:justify;
+    color:  #FF8000;
+    font-size: xx-large;
+    margin-top: 50px !important;
+}
+
+@media (min-width:320px) and (max-width:430px) {
+    .project_heading{
+        font-size: large !important;
+    }
+}

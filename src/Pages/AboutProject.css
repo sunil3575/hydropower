@@ -1,0 +1,49 @@
+  
+  .project_image{
+    border: none !important;
+    height:650px !important;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0) 0px 54px 40px, rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px, rgba(0, 0, 0, 0) 0px 12px 13px, rgba(0, 0, 0, 0.2) 0px -3px 5px;
+    }  
+
+    .project_column{
+      margin-top: 13px !important;
+      margin-bottom: 30px !important;
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
+  
+    }
+    .heading_1{
+      font-size: x-large !important;
+      text-align: left !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      color: #FF8000!important;
+      
+     
+    }
+   
+  @media (min-width:320px) and (max-width:430px) {
+   .heading{
+       font-size:large !important;
+    }
+    .paragraph{
+        font-size: smaller;
+        text-align:left !important;
+    }
+    .project_row{
+         display: flex !important;
+         flex-direction: column !important;
+         text-align: center  !important;
+         margin-left: 0.25rem !important;
+         margin-right: 0.25rem !important;
+    }
+    .pro_img{
+      height: 300px !important;
+      width: 100% !important;
+    }
+  }
+
+ 
+  
+  

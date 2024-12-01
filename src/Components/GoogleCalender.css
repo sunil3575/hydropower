@@ -1,0 +1,50 @@
+/* .calender_frame
+{
+    height:600px !important;
+    width: 800px !important;
+    border:2px solid  #f16807;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    
+  
+} */
+.calender_container
+{
+    /* text-align:center!important;
+    color: rgb(241, 104, 7);
+    margin-top: 30px !important; */
+    
+}
+/* .nepali_calender{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;} */
+    @media (min-width:310px){
+    
+    /* .calender_frame{
+        height: 300px !important;
+        width: 300px!important;
+        margin-right: 15px;
+    } */
+    .nepali_calender{
+        /* width: 200px !important;
+        height:290px !important;  
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+        margin-right: 0.3rem; */
+      
+    }
+
+}
+@media (max-width:2560px) {
+.nepali_calender{
+    /* width: 295px !important;
+    height:385px !important;  
+    margin-top: 50px;
+    margin-bottom: 50px; */
+   
+}
+}
+
+

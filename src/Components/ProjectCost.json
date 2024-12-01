@@ -1,0 +1,99 @@
+[
+    {
+       "S.No":"1",
+       "Particulars":"Pre-Operating Expenses",
+       "Crore Npr.":"4.50",
+       "%":"1.13"
+    },
+    {
+        "S.No":"2",
+        "Particulars":"Civil Construction Cost",
+        "Crore Npr.":"108.31",
+        "%":"27.08"
+    },
+    {
+        "S.No":"3",
+        "Particulars":"Hydro Mechanical Works",
+        "Crore Npr.":"58.93",
+        "%":"14.73"
+    },
+    {
+        "S.No":"4",
+        "Particulars":"Electro Mechanical Works",
+        "Crore Npr.":"69.81",
+        "%":"17.45"
+    },
+    {
+        "S.No":"5",
+        "Particulars":"Transmission Line and Switchyard (Including Land Purchase for T/L)",
+        "Crore Npr.":"49.74",
+        "%":"12.43"
+    },
+    {
+        "S.No":"6",
+        "Particulars":"Land Purchased and Development",
+        "Crore Npr.":"4.07",
+        "%":"1.02"
+    },
+    {
+        "S.No":"7",
+        "Particulars":"Site Office Building",
+        "Crore Npr.":"3.31",
+        "%":"0.83"
+    },
+    {
+        "S.No":"8",
+        "Particulars":"Office Equipment Cost",
+        "Crore Npr.":"1.00",
+        "%":"0.25"
+    },
+    {
+        "S.No":"9",
+        "Particulars":"Vehicle Cost",
+        "Crore Npr.":"2.45",
+        "%":"0.61"
+    },
+    {
+        "S.No":"10",
+        "Particulars":"Infrastructure Development Cost",
+        "Crore Npr.":"13.56",
+        "%":"3.39"
+    },
+    {
+        "S.No":"11",
+        "Particulars":"Environment /Social Mitigation Cost",
+        "Crore Npr.":"3.08",
+        "%":"0.77"
+    },
+    {
+        "S.No":"12",
+        "Particulars":"Project Management /Engineering",
+        "Crore Npr.":"17.35",
+        "%":"4.34"
+    },
+    {
+        "S.No":"13",
+        "Particulars":"Miscellaneous and Insurance",
+        "Crore Npr.":"3.00",
+        "%":"0.75"
+    },
+    {
+        "S.No":"14",
+        "Particulars":"Physical Contingency",
+        "Crore Npr.":"21.20",
+        "%":"5.30"
+    },
+    {
+        "S.No":"15",
+        "Particulars":"Interest During Construction",
+        "Crore Npr.":"39.70",
+        "%":"9.92"
+    },
+      {
+        "S.No":"",
+        "Particulars":"Total with Financing",
+        "Crore Npr.":"400",
+        "%":"100"
+      }
+      
+]

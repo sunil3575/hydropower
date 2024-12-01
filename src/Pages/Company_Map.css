@@ -1,0 +1,38 @@
+.company_frame{
+   
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:320px)  {
+    .head_map{
+        margin-left:-100px !important;
+    }
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+        width: 200px !important;
+        height: 200px !important;
+        margin-left:40px !important;
+}
+
+}
+@media (max-width:320px){
+    .head_map{
+        margin-left:-50px !important;
+    }
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+        margin-left:-100px;        
+}
+
+}
+
+@media  (max-width:450px) {
+    .head_map{
+        margin-right:-90px !important;
+    }
+}

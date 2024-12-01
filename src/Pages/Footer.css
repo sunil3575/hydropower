@@ -1,0 +1,298 @@
+.footer{
+  
+    background-color: #e3d6cc;
+       
+}
+.footer_row.footer_col.heading-footer,b.company_name{
+    font-size: 36px !important;
+}
+
+.column1{
+font-size: 20px !important;
+
+}
+.first_number {
+    margin-left:140px !important;
+}
+.second_number{
+    margin-left: 235px;
+}
+
+.link{
+    color: black;
+    color:#060672;
+
+}
+.paragraph_footer{
+    color: black !important;
+}
+.paragraph_footer a{
+  margin: 5px;
+
+}
+.heading57{
+    color:#f16807 !important;
+    margin-top:40px;
+    font-size:large;
+}
+
+.footer_col{
+    text-align: center;
+}
+.footer_address{
+    font-size:20px !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.heading-footer{
+    font-size:18px;
+    color: #f16807;
+    margin-top: 10px;
+    text-align:center !important;
+
+}
+.column_footer{
+    margin-top: 40px;
+}
+.head_footer{
+    font-size: large !important;
+    text-align:center;
+}
+.paragraph-copyright{
+    text-align: center !important;
+    font-size:small !important;
+    /* border: 2px solid #f16807 !important; */
+}
+.facebook i{
+   
+    font-size:x-large!important;
+    transition: color 0.5 ease;
+    padding: 5px;
+        
+
+}
+.facebook i:hover{
+    color:white !important;
+    background-color:#4267B2;
+    border-radius:20% !important;
+    border: none;
+    
+}
+
+.instagram i{
+    font-size:x-large !important;
+    transition: color 0.5 ease;
+    padding: 5px;
+    
+    
+
+}
+.instagram i:hover{
+    background: linear-gradient(#bc1888,#e6683c,#dc2743, #cc2366,#f09433) !important; 
+    color: white;
+    border:none;
+    border-radius:20%;
+ 
+
+    
+}
+.twitter i{
+    font-size:x-large !important;
+    transition: color 0.5 ease;
+    padding:5px !important;
+    
+
+
+}
+.twitter i:hover{
+    background-color:black;
+         color:white;
+         border-radius: 20%;
+    
+}
+
+/* .second_footer_container{
+    background-color:gray !important;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+    height:40px;
+    font-size: small; 
+} */
+.paragraph_footer .fa-envelope{
+    margin-left:70px;
+   
+}
+.second_footer_row{
+    /* border-top: 1px solid #f16807 !important; */
+    background-color:rgb(27, 26, 26);
+   color: white;
+
+}
+/* .logo_footer{
+    color: black !important;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+} */
+
+
+
+
+
+@media (min-width:320px) and (max-width:450px) {
+   
+    .footer_row.footer_col.heading-footer,b.company_name{
+        font-size:large!important;
+    }
+    .first_number {
+        margin-left:1px!important;
+    }
+    .second_number{
+        margin-left:80px !important;
+    }
+.footer_logo{
+    display: none !important;
+}
+.footer_address{
+    margin-left:50px;
+}
+
+ .footer_row{
+             display: flex !important;
+             flex-direction:column !important;
+    }
+    .heading-footer{
+         font-size:15px !important;
+        margin-bottom: 0% !important;
+    text-align: center !important;
+    }
+    .head_footer{
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+    .paragraph_footer .fa-envelope{
+        margin-left: 90PX !important;
+        
+    }
+    .paragraph_footer i{
+        font-size: 15px !important;
+       
+    }
+    .footer_info{
+        font-size: 12px;
+    }
+    .facebook i{
+        font-size:large!important;
+    }
+    .twitter i{
+        font-size:large !important;
+
+    }
+    .instagram i{
+        font-size:large !important;
+
+    }
+    .heading57{
+       font-size:15px !important;
+       margin-left:180px!important;
+       margin: 0%;
+    }
+    .paragraph-copyright{
+        font-size:xx-small !important;
+    }
+    .footer_address{
+        font-size:12px !important;
+    }
+    .heading-footer{
+        font-size:15px !important;
+        margin-bottom:5px !important  ;
+    }
+    .footer_address{
+        font-size:medium !important;
+        margin-left: 10px !important;
+    }
+    .head_office{
+        font-size: small  !important;
+    }
+    .project_site{
+        font-size: small  !important;
+    }
+    .address_info{
+        font-size: small  !important;
+    }
+    .contact_office22{
+        font-size: small  !important;
+
+    }
+   
+  
+}
+@media (min-width:768px) and (max-width:1450px) {
+    .footer_row.footer_col.heading-footer,b.company_name{
+        font-size:larger!important;
+    }
+    .first_number {
+        margin-left:40px!important;
+    }
+    .second_number{
+        margin-left:120px !important;
+    }
+    .contact_office22{
+        font-size: small  !important;
+        margin-left: -5px;
+        
+
+    }
+    .contact_rupendehi{
+        margin-left: 35px;
+    }
+    .address_info{
+        font-size: small  !important;
+    }
+    b.office_number{
+        margin-left:40px;
+    }
+   
+   
+   .paragraph-icon{
+    margin-right: 100px !important;
+   }
+    .footer_info{
+        font-size: 15px;
+        
+    }
+    .footer_info1{
+        font-size:x-small !important; 
+        margin-left: 160px !important;
+    }  
+   .fa-solid{
+    /* margin-left :-45px !important; */
+    margin-inline-start: -215 !important;
+   margin-right: -150px;
+
+
+
+}
+.head_office{
+    font-size: small  !important;
+    margin-left: 20px;
+}
+.project_site{
+    font-size: small  !important;
+}
+ 
+}
+@media (max-width:1024px) {
+    
+   
+}
+@media (max-width:1440px) {
+   
+   .contact_rupendehi{
+    margin-left:0px !important;
+   }
+   
+}
+
+

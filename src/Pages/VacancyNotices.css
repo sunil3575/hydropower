@@ -1,0 +1,147 @@
+.vac_conatainer
+{
+    height:650px !important;
+    width: 100% !important;
+    margin-bottom: 50px !important;
+    font-size:large;
+    margin-top: 30px; 
+}
+.vac_heading
+{
+
+    text-align: center !important;
+     font-size:xx-large !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+    color:  #FF8000;
+   
+   
+}
+/* .list_items{
+    list-style-type:none;
+    font-size:large;
+    margin-top: 20px;
+  
+  
+}
+
+.list_items a{
+
+    text-decoration: none;
+    color: blue;
+    
+    
+ 
+    
+    
+  
+}
+.list_items a i{
+    color: red !important;
+    font-size:x-large;
+
+   
+} */
+/* .list_items a:hover{
+    color: #FF8000  !important;
+    font-weight: 500;
+text-decoration: underline;
+
+} */
+/* table style */
+
+.table1{
+    border:4px solid  #FF8000  !important;
+    height: 500px;
+    width: 100% !important;
+    
+}
+.table1 tr th{
+    background-color:  #FF8000 !important;
+    
+}
+.table1 tbody tr .vac_table_link{
+    color:blue !important;
+    
+
+}
+.vac_anchor{
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+.vac_anchor:hover{
+    color: blue !important;
+}
+@media (max-width:320px) {
+td{
+    font-size: small !important;
+    text-align: left !important;
+}
+.vac_conatainer{
+    margin-bottom: 250px !important;
+
+}
+.vac_heading{
+    font-size: large !important;
+    margin: 0% !important;
+}
+
+}
+@media (min-width:360px) and (max-width:450px) {
+    .vac_conatainer{
+        font-size:small !important;
+        text-align: justify !important;
+        margin-bottom: 50px !important;
+    }
+    /* .vacancy_unorderlist{
+        font-size:10px !important;
+        
+    } */
+     .vac_table_link{
+        text-align:left !important;
+     }
+   .table1{
+   margin-bottom: 50px !important;
+   }
+   .vac_heading{
+    font-size: large !important;
+    margin: 0% !important;
+}
+   
+}
+@media (min-width:760px) and (max-width:1450px) {
+    tr{
+        font-size: medium !important;
+    }
+    td{
+        font-size:15px !important;
+    }
+   .vac_table_link{
+     /* text-align: right !important;   */
+ }
+     .vac_heading{
+        font-size: larger !important;
+        margin: 0% !important;
+    }
+   
+ .vac_anchor{
+    margin-left: 150px;
+ }
+
+
+
+    
+}
+
+  
+
+
+
+
+
+
+
+
+

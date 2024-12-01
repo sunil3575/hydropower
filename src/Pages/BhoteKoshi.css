@@ -1,0 +1,38 @@
+
+
+
+@media (max-width:465px) {     
+    .bhote_heading{
+        font-size: large !important;
+       
+    }
+    .bhote_paragraph{
+        font-size: small !important;
+    }
+    .bhote_row{
+       margin:0.5px !important;
+    } 
+}
+
+.bhote_heading{
+    text-align: center !important;
+    margin-bottom: 30px !important;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.bhote_paragraph{
+    text-align:justify !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px!important;
+    font-size: medium;
+}
+.bhote_container{
+    margin-top: 50px !important;
+    margin-bottom:50px  !important;
+}
+.bhote_row{
+    text-align: center !important;
+}
+.bhote_image{
+border: 4px solid #f16807 !important;
+}

@@ -1,0 +1,247 @@
+
+
+.navbar{
+  
+    background-color:#f16807f0;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+
+
+.brand{
+    color:white;
+    font-weight: 400;
+   display: flex;
+   align-items: flex-start;
+}
+
+.logo_image{
+  width: 80px !important;
+  height: 80px !important;
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.company_name{
+  flex-direction: row;
+  font-size: medium;
+  margin-left: 10px;
+  text-align: center;
+}
+.project_name{
+  display: flex;
+  flex-direction:column;
+  font-size: small;
+  text-align: center;
+  margin-left: -155px;
+  margin-top: 0.4px;
+  opacity: 0.8;
+}
+.project_capacity{
+  display: flex;
+  flex-direction: column;
+ margin-left: -103px;
+ margin-top: 15px;
+}
+.nasted_items{
+/* color: red !important; */
+}
+ #basic-nav-dropdown::after{
+  display: none !important;
+  }
+ 
+.brand:hover{   
+    color:white;
+   
+}
+.nav-link{
+    font-weight: 500;
+    color: white;
+    padding-left: 20px  !important;
+}
+
+
+.nav-link:hover{
+    color: black !important;
+
+
+    
+
+} 
+
+
+.nav-link1{
+  margin-left: 25px !important;
+  margin-right: 25px;
+}
+
+#basic-nav-dropdown
+{
+  /* color: black; */
+    color:white !important;
+   
+
+}
+
+
+
+/* #basic-nav-dropdown:hover{
+    display: block!important;
+    /* background-color: transparent !important; */
+    /* background-color:#f16807f0 ; */
+  /* } */ 
+ 
+
+.toggle{
+    color:white;
+    background-color: white;
+    font-size: smaller;
+    /* background-color:green !important; */
+}
+
+.nav-link1:hover{
+color:black !important;
+}
+
+a.nav-link1.nav-link.active{
+    color: white !important;
+    
+}
+.nav-items{
+    /* background-color:white !important;
+    color:white !important; */
+    /* font-size:larger !important; */
+    
+}
+
+.nepali_calender{
+  margin-left:45px!important;
+  border-radius: 8px;
+  height: 288px;
+  width: 197px;
+  margin-top:-10px;
+  position:absolute!important;
+  background-color:pink!important;
+  
+ 
+}
+.dropdown-menu{
+  /* display: contents !important  ; */
+  background-color:gray!important;
+  border: none !important;
+ 
+ 
+}
+div.dropdown-menu.show{
+
+}
+
+
+
+
+
+
+  @media (min-width:320px) and (max-width:770px) {
+    .nepali_calender{
+      margin-left:80px !important;
+      
+    }
+    .logo_image{
+      height: 55px  !important;
+      width: 55px !important;
+      text-align: center;
+      margin-top:13px;
+      margin-bottom: 14px;
+    }
+    .company_name{
+      font-size:small;
+      margin-top: 10px;
+      margin-left:8px;
+      margin-right: 1px;
+    }
+    .project_name{
+      font-size:small;
+      margin-bottom:30px;
+      margin-left:-128px;
+  
+    }
+    .project_capacity{
+      margin-top: 17px;
+      
+    }
+    .company_calender{
+      display: none !important;
+    }
+   .brand {
+font-size:15px!important;
+    } 
+  .toggle{
+    background-color:white;
+   font-size:12px !important;
+   
+    }
+    .calendar_icon{
+        height: 30px !important;
+        width: 30px !important;
+        
+      }
+      #basic-nav-dropdown
+{
+    font-size:medium !important;  
+}
+#basic-nav-dropdown1
+{
+    font-size:medium !important;  
+}
+.nav-link{
+    font-size:medium !important;
+}
+
+
+
+
+  }
+
+    
+@media (min-width:1024px) {
+  .navbar{
+    font-size:small;
+  }
+  .brand{
+    font-size:large;
+  }
+.nepali_calender{
+  left: -80px    !important;
+}
+.nav-link{
+  font-size: medium !important;
+}
+
+
+}
+ /* hover calender */
+ 
+
+
+
+ 
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+

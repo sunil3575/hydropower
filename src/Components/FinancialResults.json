@@ -1,0 +1,57 @@
+[
+    {
+         "S.No.":"1.",
+         "Particulars":"IRR (Internal Rate of Return)",
+         "Results":"14.83%"
+    },
+    {
+        "S.No.":"2.",
+        "Particulars":"EIRR/ROE (Return on Equity)",
+        "Results":"22.49%"
+   },
+   {
+    "S.No.":"3.",
+    "Particulars":"NPV (Net present value) in thousand",
+    "Results":"1532526"
+},
+{
+    "S.No.":"4.",
+    "Particulars":"Cost per kW (1 US$=134)",
+    "Results":"1421.46"
+},
+{
+    "S.No.":"5.",
+    "Particulars":"BC Ratio (benefit Cost Ratio)",
+    "Results":"1.47"
+},
+{
+    "S.No.":"6.",
+    "Particulars":"Pay back Period -Simple",
+    "Results":"6.03"
+},
+{
+    "S.No.":"7.",
+    "Particulars":"Pay back Period - Discounted",
+    "Results":"9.28"
+},
+{
+    "S.No.":"8.",
+    "Particulars":"Cost Sensitivity (Incensement up to)",
+    "Results":"42%"
+},
+{
+    "S.No.":"9.",
+    "Particulars":"Revenue sensitivity (Decrease up to)",
+    "Results":"29%"
+},
+{
+    "S.No.":"10.",
+    "Particulars":"DSCR In 12 yrs Average",
+    "Results":"1.52"
+}
+
+
+]
+
+
+
