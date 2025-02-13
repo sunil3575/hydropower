@@ -3,7 +3,6 @@
     border: none !important;
     height:650px !important;
     width:100%;
-    box-shadow: rgba(0, 0, 0, 0) 0px 54px 40px, rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px, rgba(0, 0, 0, 0) 0px 12px 13px, rgba(0, 0, 0, 0.2) 0px -3px 5px;
     }  
 
     .project_column{
@@ -18,7 +17,7 @@
       text-align: left !important;
       margin-top: 30px !important;
       margin-bottom: 30px !important;
-      color: #FF8000!important;
+      color: #016ab9!important;
       
      
     }

@@ -27,6 +27,8 @@ import GoogleCalender from './Components/GoogleCalender';
 import Gallary from './Pages/Gallary';
 import TeamMembers from './Pages/TeamMembers';
 import NewsList from './Pages/NewsList';
+import Page from './Pages/Page';
+import Map from './Pages/Map';
 
 
 
@@ -37,6 +39,7 @@ function App() {
   
   return (
     <>
+  
     <BrowserRouter>
       <Routes>
            <Route path='/' element={<Layout/>}>
@@ -58,19 +61,20 @@ function App() {
           <Route path="/vacanc" element={<VacancyNotices/>}/>
           <Route path='/company_map' element={<Company_Map/>}/>
           <Route path='/project_map' element={<Project_Map/>}/>
+          <Route path='/map' element={<Map/>}/>
           <Route path='/severe' element={<SevereDamages/>}/>
           <Route path='/cabinet' element={<CabinetApproves/>}/>
           <Route path='/bhotekoshi' element={<BhoteKoshi/>}/>
           <Route path='/calender' element={<GoogleCalender/>}/>
           <Route path='/gallary' element={<Gallary/>}/>
-          <Route path='/team' element={<TeamMembers/>}/>
+          {/* <Route path='/team' element={<TeamMembers/>}/> */}
             <Route path='/News/:id' element={<NewsList/>}/>
           <Route path="*" element={<Errorpage/>}/>
          </Route>
       </Routes>
       </BrowserRouter>
    
-  
+   
   
  
     </>

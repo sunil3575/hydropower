@@ -7,7 +7,7 @@ import './Navigation.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 // import calender_icon from '../Components/calender/calendar-icon.png';
-import logo from '../Components/LOGO/logo-Nilganga.png'
+import logo from '../Components/Home/company_logo/LOGOS/LOGOS/White LoGO.png'
 import ActiveNavButton from "react-activenav-button";
 import { Link, useLocation } from 'react-router-dom';
 
@@ -51,7 +51,7 @@ const NavigationBar = () => {
             <NavDropdown title="About Us" id="basic-nav-dropdown" show={openDropdown==="first"} onMouseEnter={()=>handleMouseEnter('first')} onMouseLeave={handleMouseLeave}>
             <Nav.Link  className={activeItem === "introduction" ? "active" : ""} onClick={() => handleClick("introduction")} href='/introduction'>Introduction</Nav.Link>
             <Nav.Link  className={activeItem === "directors" ? "active" : ""} onClick={() => handleClick("directors")} href='/directors'>Existing Board Of Directors</Nav.Link>
-            <Nav.Link  className={activeItem === "team" ? "active" : ""} onClick={() => handleClick("team")} href='/team'>Team Members</Nav.Link>
+            {/* <Nav.Link  className={activeItem === "team" ? "active" : ""} onClick={() => handleClick("team")} href='/team'>Team Members</Nav.Link> */}
             </NavDropdown>
             <NavDropdown title="Project" id="basic-nav-dropdown" show={openDropdown==="second"} onMouseEnter={()=>handleMouseEnter('second')} onMouseLeave={handleMouseLeave} >
             <Nav.Link  className={activeItem === "aboutproject" ? "active" : ""} onClick={() => handleClick("aboutproject")} href='/aboutproject'>About Project</Nav.Link>

@@ -7,7 +7,7 @@
 }
 
 .news_list_heading{
-    color:#f16807;
+    color:#016ab9;
     margin-bottom: 50px;
 }
 
@@ -22,7 +22,7 @@
 .news_list_image{
     border-radius: 5px !important;
     height:fit-content !important;
-    width: 100%;
+    width: 70%;
    
 }
 

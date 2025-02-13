@@ -1,5 +1,5 @@
 .table {
-    border: 2px solid#FF8000;
+    border: 2px solid#016ab9;
     padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
     text-align:center;
@@ -7,21 +7,21 @@
 
 }
 .table tr td {
-    border: 2px solid#FF8000!important;
+    border: 2px solid#016ab9!important;
 }
 .table tr th{
-    border: 3px solid  #FF8000 !important;
+    border: 3px solid  #016ab9 !important;
     color: white  !important;
     /* font-size: large; */
-    background: #FF8000 !important;
+    background: #016ab9 !important;
 }
  .table tr td:hover{
-    color:  #FF8000;
+    color:  #016ab9;
 }
 
 .project_heading{
     text-align:justify;
-    color:  #FF8000;
+    color:  #016ab9;
     font-size: xx-large;
     margin-top: 50px !important;
 }

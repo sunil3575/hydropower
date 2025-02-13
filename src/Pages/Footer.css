@@ -1,6 +1,7 @@
 .footer{
   
     background-color: #e3d6cc;
+    /* background-color: #858585; */
        
 }
 .footer_row.footer_col.heading-footer,b.company_name{
@@ -31,7 +32,7 @@ font-size: 20px !important;
 
 }
 .heading57{
-    color:#f16807 !important;
+    color:#016ab9 !important;
     margin-top:40px;
     font-size:large;
 }
@@ -46,7 +47,7 @@ font-size: 20px !important;
 }
 .heading-footer{
     font-size:18px;
-    color: #f16807;
+    color: #016ab9;
     margin-top: 10px;
     text-align:center !important;
 
@@ -61,7 +62,7 @@ font-size: 20px !important;
 .paragraph-copyright{
     text-align: center !important;
     font-size:small !important;
-    /* border: 2px solid #f16807 !important; */
+    /* border: 2px solid #016ab9 !important; */
 }
 .facebook i{
    
@@ -124,7 +125,7 @@ font-size: 20px !important;
    
 }
 .second_footer_row{
-    /* border-top: 1px solid #f16807 !important; */
+    /* border-top: 1px solid #016ab9 !important; */
     background-color:rgb(27, 26, 26);
    color: white;
 
@@ -135,8 +136,10 @@ font-size: 20px !important;
     width: 70px;
     margin-top: 10px;
 } */
-
-
+/* 
+.footer_powered{
+    margin-left:180px;
+} */
 
 
 

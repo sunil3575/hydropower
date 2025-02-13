@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Image, Row, Table } from 'react-bootstrap';
 import './AboutProject.css';
-import project from '../Components/About_Project_images/project1.jpg';
+import project from '../Components/About_Project_images/slide 1.png';
 import './Feature.css';
 import feature_data from '../Components/Feature.json'
 

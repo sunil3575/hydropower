@@ -27,10 +27,10 @@ const customicon=new L.Icon({
        <Container style={{marginBottom:"10px",marginTop:"20px"}}>
         <Row>
         <Col>
-            <h1 className="heading" style={{textAlign:"center",marginTop:"30px"}}><u className='head_map' style={{color:"#FF8000"}}>Head Office</u></h1>
-        <MapContainer center={[27.691057133665804, 85.29570443704152]} zoom={17} style={{ height: "500px", width: "100%",border:"2px solid #FF8000" }}>
+            <h1 className="heading"><u className='head_map' style={{color:"#016ab9"}}>Head Office</u></h1>
+        <MapContainer center={[27.691057133665804, 85.29570443704152]} zoom={17} style={{ height: "500px", width: "100%",border:"2px solid #016ab9" }}>
           <TileLayer className='company_frame'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+           url ="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='<a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors'
           />
           <Marker position={[27.691057133665804, 85.29570443704152]} icon={customicon}>

@@ -2,7 +2,7 @@
 
 .navbar{
   
-    background-color:#f16807f0;
+    background-color: #016ab9;
     padding: 10px;
     
     
@@ -17,6 +17,9 @@
     font-weight: 400;
    display: flex;
    align-items: flex-start;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color:#82d5ec !important;
 }
 
 .logo_image{

@@ -1,0 +1,137 @@
+.map-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .head-column {
+    text-align: center;
+    margin-bottom:80px;
+    height: 400px;
+    width: 80%;
+    /* border: 2px solid#016ab9 ; */
+    /* margin-top:40px; */
+
+  }
+  .map_frame{
+border-radius: 10px;  
+  }
+  .project-column {
+    text-align: center;
+    margin-bottom:250px;
+    width: 80%;
+    height: 400px;
+  }
+  
+  .head-title {
+    /* margin-bottom:90px; */
+    margin-top: 50px;
+    color: #016ab9;
+    text-decoration: underline;
+    /* margin-top: -100px; */
+    
+  }
+  .project-title {
+    margin-top:100px;
+    /* margin-bottom:80px; */
+    color: #016ab9;
+    text-decoration: underline;
+  }
+  
+  .leaflet-map {
+    height: 400px;
+    width: 100%;
+    border: 2px solid #016ab9;
+    border-radius: 10px;
+  }
+  @media (max-width: 320px) {
+    h3.project-title{
+      /* font-size:14px;
+      margin-top:-20px;
+      margin-right:45px; */
+      align-items:center;
+
+    }
+    p.project_address{
+      font-size:8px !important;
+      /* margin-left:25px; */
+    }
+    .head-title{
+      font-size: 14px;
+      /* margin-left:-25px; */
+
+    }
+.map_frame{
+height: 300px;
+      margin-left:0%;
+      margin-right:0%;
+
+}
+.project-column{
+  /* margin-bottom:-10px; */
+}
+.head-column{
+  margin-bottom:0%;
+}
+  }
+  @media (max-width: 376px) {
+  
+.map_frame{
+height: 300px;
+}
+.project-title{
+  font-size:10;
+}
+.head-column{
+  margin-bottom:0%;
+}
+
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    /* .leaflet-map {
+      height: 300px;   
+           
+    } */
+    .map_frame{
+      height: 300px;
+      }
+    .project_address{
+        font-size:11px !important;
+       
+       
+    }
+    .head-column {
+      justify-content: center;
+      margin-bottom: 0%;
+    }
+    .project-column {
+      justify-content: center;
+      margin-bottom: 0%;
+    }
+    h3.head-title{
+        margin-top:10px;
+        font-size: 14px;
+         margin-bottom: 0px;
+        
+    }
+    .project-title{
+      margin: 0%;
+  }
+    /* .project-column{
+      margin-top: 30px;
+    }  */
+     .project-title{
+      font-size: 14px;
+     }
+  }
+  @media (max-width:1024px){
+       .project_address{
+        font-size: 14px;
+
+       }
+  }
+
+ 
+
+  

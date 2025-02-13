@@ -4,15 +4,22 @@
     font-size: large;
     background-color: #aea49a !important;
     /* color: black; */
-    /* border:2px solid # #FF8000 !important; */
+    /* border:2px solid # #016ab9 !important; */
     border:none;
-
-   
-
     
 }
+.form1-container{
+    line-height:28px;
+}
+
+.main_column{
+    color:black;
+ /* padding: 50px; */
+ margin-inline-start:200px;
+}
+
 .btn:hover {
-background: #FF8000 !important;
+background: #016ab9 !important;
 color: white;
 font-size:large;
 /* border: 1px solid orangered; */
@@ -20,34 +27,46 @@ border: none;
 
 }
 .paragraph89{
-    margin-left: 50px;
+  margin-top: 10px;
 }
 .head_contact{
-    color: #FF8000;
+    color: #016ab9;
+    /* margin-bottom: 50px !important; */
+    margin-top: 20px;
+   
+
 }
 .contact_office{
-    color: #FF8000;
+    color: #016ab9;
+   
 
 }
 
+.construction_office{
+    color: #016ab9;
+
+}
+
+
 .name:hover{
-    border:1px solid #FF8000 !important;
-    box-shadow: orangered !important;
+    border:1px solid #016ab9 !important;
+    box-shadow: #016ab9 !important;
     
 }
 .focus:hover{
-    border: 1px solid  #FF8000 !important;
+    border: 1px solid  #016ab9 !important;
    box-shadow:transparent;   
 }
 .focus{
   
     resize: none;
     outline: none !important;
-    box-shadow: none !important;
+    /* box-shadow: none !important; */
 }
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
     touch-action: none;
     width: 100%;
+    margin: 0%;
     
 }
 .contact-envelope{
@@ -60,9 +79,45 @@ border: none;
 .contact-mobile{
     margin: 0% !important;
 }
+/* @media (max-width: 320px) {
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .col-12{
+        margin-right:-40px;
+    }
+    h3.head-title{
+        margin-right:40px;
+     }
+     p.project_address{
+         margin-right:50px;
+         font-size:50px;
+     }
+     h3.project-title{
+         margin-right:41px;
+     }
+  
+} */
+  
+/* @media (max-width: 376px) {
+    
+    .col-12{
+        margin-left:-40px;
+    }
+    h3.head-title{
+       margin-left: 40px;
+    }
+    p.project_address{
+        margin-left: 40px;
+    }
+    h3.project-title{
+        margin-left: 50px;
+    }
+  
+} */
 
-
-@media (max-width:475px)
+@media (max-width:426px)
 {
     .form_container{
           display: flex !important;
@@ -71,22 +126,34 @@ border: none;
 }
 .paragraph89{
     text-align: center !important;
-    margin: 0%;
+    margin-top: 20px;
+    margin-left: 10px;
 }
+.main_column{
+    color: black;
+   /* padding: 50px; */
+   margin-inline-start:0%;
+  }
+/* .contact_office{
+    gap: 50px;
+} */
 
-.leaflet-container .leaflet-marker-pane img
+/* .leaflet-container .leaflet-marker-pane img
 {
     width: 30px !important;
     height: 30px !important;
 
 }
+
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
     width:200px !important;
     height: 200px !important;
-    margin-left:90px !important;
+    margin-left:77px !important;
    
    
-}
+} */
+
+
 .h6,h6{
     font-size: xx-small !important;
 }
@@ -96,26 +163,48 @@ border: none;
 .second_contact_row{
     margin-right:-10px;
 }
-.company_map{
+/* .company_map{
     margin-right:200px !important;
-}
+} */
 
 .heading{
     text-align: center !important;
 }
-.head_contact{
+/* .head_contact{
     margin-bottom: 60px !important;
+} */
 }
-}
+
 @media (min-width:768px){
-    .leaflet-retina{
-        margin-top:100px;
+    
+        /* .leaflet-retina {
+            margin-top: 100px;
+            width: 100%;
+        } */
+       /* .column_map {
+            margin-top: -98px !important;
+        } */
+        /* Increase size for screens 768px or smaller */
+    input, textarea {
+        width: 100% !important; /* Make it take full width */
+        /* height: 50px !important; Increase height */
+        /* font-size: 18px !important; Make text larger */
     }
-    .column_map{
-        margin-top:-98px !important;
-        }
+
+    textarea {
+        height: 120px !important; /* Increase height for message box */
+    }
+    .main_column{
+        color: black;
+       /* padding: 50px; */
+       margin-inline-start:160px;
+      } 
+    
+   
 }
-@media (min-width:1024px) and  (max-width:2580px) {
+    
+
+/* @media (min-width:1024px) and  (max-width:2580px) {
    .leaflet-container{
    margin-top: 100px;
    }
@@ -128,17 +217,15 @@ border: none;
     .leaflet-touch{
         margin-top: 60px;
     }
-}
-/* @media{ 
-    .leaflet-touch{
-        margin-top: 60px;
-    }
-    .column_map{
-        margin-top:-70px !important;
-        }
+   
 } */
 
- 
-   
+/* @media (min-width: 376px) {
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+       margin: left -50px !important;;
+    }
+} */
+
+
 
 

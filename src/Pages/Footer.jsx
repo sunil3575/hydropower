@@ -11,7 +11,7 @@ const Footer = () => {
         <Row className='footer_row' >
           {/* <Col className='footer_logo' xs={1}>logo</Col> */}
           <Col className='footer_col mt-4' >
-            <h6 className='heading-footer'><b className='company_name'>Nilganga Hydropower Company Pvt. Ltd.</b></h6>
+            <h6 className='heading-footer'><b className='company_name'>Nilganga Hydropower Company Ltd.</b></h6>
             {/* <p className='footer_address'><b>CONTACT US :</b></p> */}
           </Col>
         </Row>
@@ -59,10 +59,10 @@ const Footer = () => {
             <p className='paragraph-copyright' style={{ marginRight: "30px" }}>
               <b>Copyright <a href=''><i style={{ color: "white", fontSize: "12px",
                  marginTop: "18px" }} class="fa-regular fa-copyright"></i></a> 
-                 2024 Nilganga Hydropower company</b></p>
+                 2025 Nilganga Hydropower company</b></p>
           </Col>
           <Col><p className='paragraph-copyright' style={{ marginTop: "14px" }}>
-            powered by : <b><u>somarjun tech company</u></b></p></Col>
+            <span className='footer_powered'>Developed by : <b><u><a target='_black'  href='https://www.tech.somarjun.com/'>somarjun tech company</a></u></b></span></p></Col>
         </Row>
       </Container>
 

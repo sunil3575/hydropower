@@ -15,21 +15,21 @@ const customicon=new L.Icon({
 }); 
     return (
  
-       <Container style={{marginBottom:"50px",marginTop:"30px"}}>
+       <Container style={{marginBottom:"50px"}}>
         <Row>
-            <h1 className="heading" style={{textAlign:"center",marginTop:"30px"}}><u>Project Location/Site</u><br/><span style={{color:"black",fontSize:"small"}}>KHARCHE,NASON RURALMUNICIPALITY,MANANG,NEPAL.</span></h1>
-        <Col className='column_map'>
-        <MapContainer className='map_container' center={[28.593587516307675, 84.41908952499044]} zoom={17} style={{height: "500px", width: "100%",border:"2px solid  #FF8000"}}>
+            <h1 className="heading" style={{textAlign:"center"}}><u>Project Location/Site</u><br/><span style={{color:"black",fontSize:"small",marginBottom:"100px"}}>KHARCHE,NASON RURALMUNICIPALITY,MANANG,NEPAL.</span></h1>
+        <Col className='column_map' >
+        <MapContainer className='map_container' center={[28.593587516307675, 84.41908952499044]} zoom={17} style={{height: "500px", width: "100%",border:"2px solid  #016ab9"}}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='<a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors'
-          />
+            attribution='<a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors'/>
           <Marker  position={[28.593587516307675, 84.41908952499044]} icon={customicon}>
             <Popup>
             <h6 style={{color:"red"}}>Suti Khola</h6>
             </Popup>
           </Marker>
         </MapContainer>
+     
         </Col>
         </Row>
        </Container>

@@ -1,8 +1,25 @@
+
+.project_map{
+margin-top:40px;
+}
+
+
+
+
 @media (max-width:320px) {
-.map_container{
+.project_container{
    width: 100%  !important;
    height: 400px  !important; 
-   border: 2px solid  #FF8000 ;
+   border: 2px solid  #016ab9 ;
    }
   
 }
+
+@media only screen and (max-width: 768px) {
+   h1.heading {
+    margin-bottom:100px !important;
+   }
+   
+ }
+ 
+ 

@@ -1,20 +1,21 @@
 
 
 .table{
-    color:  #FF8000  !important  ;
+    color:  #016ab9  !important  ;
     text-align: justify;
     font-weight: 500;
-    border: 3px solid  #FF8000 !important;
+    border: 3px solid  #016ab9 !important;
     
       
 }
 .table .intro_heading{
-    background-color:white !important;
-    color: black !important;
+    background-color: #016ab9 !important;
+    color: white !important;
 }
 
+
 .table tr{
-    border: 2px solid  #FF8000!important  ;
+    border: 2px solid  #016ab9!important  ;
     text-align: justify;
 }
 .container{
@@ -26,7 +27,7 @@
     
 }
 .heading{
-    color:#FF8000 !important;
+    color:#016ab9 !important;
 }
 @media (min-width:320px) and (max-width:450px) {
    

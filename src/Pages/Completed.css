@@ -1,6 +1,6 @@
 .completed_heading{
     text-align:justify;
-    color:  #FF8000;
+    color:  #016ab9;
     font-size: xx-large;
     margin-top: 50px;
 }
@@ -16,7 +16,7 @@
 
 @media (min-width:320px) and (max-width:450px) {
     .completed_heading{
-        color:  #FF8000;
+        color:  #016ab9;
         font-size:large!important;
         
     }

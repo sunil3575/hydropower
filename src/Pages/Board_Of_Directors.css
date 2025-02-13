@@ -17,11 +17,12 @@
 
  .head_pic
  {
-   border: 3px solid #f16807;
+   border: 3px solid #016ab9;
+   border-radius:10px;
  }
  .director_heading{
   text-align:center;
-  color: #f16807;
+  color: #016ab9;
   font-size: xx-large;
   margin-top: 50px;
  }
@@ -29,27 +30,28 @@
  {
   margin-top:20px !important;
   font-size: larger;
-  color:#060672;
+  color:#016ab9;
   margin-bottom: 50px;
  }
  .heading3
  {
   margin-top:20px !important;
   font-size: larger;
-  color:#060672;
+  color:#016ab9;
   margin-bottom: 50px;
  }
  .members_pic
  {
-   border: 3px solid #f16807;
+   border: 3px solid #016ab9;
+   border-radius:10px;
  }
 .table tr td{
-  border: 2px solid #f16807!important;
+  border: 2px solid #016ab9!important;
 
 }
 .table{
   margin-top: 30px;
-  border: 3px solid #f16807 !important;
+  border: 3px solid #016ab9 !important;
   margin-bottom: 30px !important; 
 }
 .table .t_heading{
@@ -57,18 +59,18 @@
   color: black !important;
 }
 .table tbody{
-  border: 2px solid #f16807 !important;
+  border: 2px solid #016ab9 !important;
 }
 
 @media (min-width:320px) and (max-width:450px) {
   .members_pic{
     height: 150px !important;
-    border-radius: 100%;
+    /* border-radius: 50% !important */
     
   }
   .head_pic{
     height: 200px!important;
-    border-radius: 100%;
+    /* border-radius: 50% !important; */
    
     
   }

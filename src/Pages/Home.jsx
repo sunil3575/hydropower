@@ -2,7 +2,7 @@ import React from 'react'
 import SliderBar from '../Components/SliderBar'
 import { Card, Carousel, Col, Container, Image, ListGroup, Row } from 'react-bootstrap'
 import './Home.css';
-import chairman from '../Components/Home/chairman_pic.jpg'
+import chairman from '../Components/BoardofDirectors/shree_ram_panday.jpg'
 import partners1 from '../Components/Home/partners_company/partner1.png'
 import partners2 from '../Components/Home/partners_company/partner2.jpg'
 import partners3 from '../Components/Home/partners_company/partner3.png'
@@ -37,7 +37,7 @@ const Home = () => {
     <Container className='container20'  style={{textAlign:"center"}}>
       <Row className='background' style={{marginTop:"30px"}}>
         <Col className='col1'>
-      <h3 className='heading' style={{textAlign:"center"}}><span>Nilganga Hydropower Company Pvt. Ltd.</span></h3>
+      <h3 className='heading' style={{textAlign:"center"}}><span>Nilganga Hydropower Company Ltd.</span></h3>
       <p className='paragraph'>Our goal is to build one of the most comprehensive web 
         portals with regard to Nepal's water resources. This, we believe, 
         can and will contribute to a better understanding and utilization 
@@ -48,7 +48,7 @@ const Home = () => {
         are interested in finding 
         out more about how you can partner with us</p>
         <h6 className='anchor6'><a href='/introduction'>Read More...</a></h6>
-        <h2 className='heading10'>21<span style={{fontSize:"20px"}}>MW</span><br/><p className='paragraph' style={{fontSize:"20px", color:"#f16807",textAlign:"center"}}>Installed Capacity</p></h2>
+        <h2 className='heading10'>21<span style={{fontSize:"20px"}}>MW</span><br/><p className='paragraph' style={{fontSize:"20px", color:"#016ab9",textAlign:"center"}}>Installed Capacity</p></h2>
         </Col>
       <Col className='col1'>
         <h3 className='heading'>Message From Chairman</h3>
@@ -102,36 +102,35 @@ const Home = () => {
         <h6 className='anchor'><a href='/capitalplan' target='_blank'>READ MORE....</a></h6> 
         </Col>
       </Row> */}
-   <Row  className='background2'>
+   {/* <Row  className='background2'>
    
     
    <h3 className='heading' style={{marginTop:"30px"}}>Our Team Members</h3>
    
    <Col>  
    <Image className='img4'  src={team_members1} height={150} width={150} style={{borderRadius:"100%"}} alt='image'/>
-      <h6 className='heading1' style={{fontSize:'15px',color:"#060672",marginBottom:"20px"}}>Free Lancer Consultant</h6>
+      <h6 className='heading1' style={{fontSize:'15px',color:"#016ab9",marginBottom:"20px"}}>Free Lancer Consultant</h6>
    </Col>
    <Col>
    <Image className='img4'  src={team_members2} height={150} width={150} style={{borderRadius:"100%"}} alt='image'/>
-      <h6 className='heading1' style={{fontSize:'15px',color:"#060672",marginBottom:"20px"}}>Hydro Consult Engineering</h6>
+      <h6 className='heading1' style={{fontSize:'15px',color:"#016ab9",marginBottom:"20px"}}>Hydro Consult Engineering</h6>
    </Col>
    <Col>
    <Image className='img4' src={team_members3} height={150} width={150} style={{borderRadius:"100%"}} alt='image'/>
-      <h6 className='heading1' style={{fontSize:'15px',color:"#060672",marginBottom:"20px"}}>Nepal Electricity Authority</h6>
+      <h6 className='heading1' style={{fontSize:'15px',color:"#016ab9",marginBottom:"20px"}}>Nepal Electricity Authority</h6>
    </Col>
    <Col>  
    <Image className='img4' src={team_members4} height={150} width={150} style={{borderRadius:"100%"}} alt='image'/>
-      <h6 className='heading1' style={{fontSize:'15px',color:"#060672",marginBottom:"20px"}}>Hydro Lab Pvt. Ltd.</h6>
+      <h6 className='heading1' style={{fontSize:'15px',color:"#016ab9",marginBottom:"20px"}}>Hydro Lab Pvt. Ltd.</h6>
    </Col>
    <Col>
    <Image className='img4' src={team_members5} height={150} width={150} style={{borderRadius:"100%"}} alt='image'/>
-      <h6 className='heading1' style={{fontSize:'15px',color:"#060672",marginBottom:"20px"}}>International Hydro Consult</h6>
+      <h6 className='heading1' style={{fontSize:'15px',color:"#016ab9",marginBottom:"20px"}}>International Hydro Consult</h6>
    </Col>
     
    <h6 className='team_anchor'><a href='/team'>Read More...</a></h6>
- 
+   </Row> */}
 
-   </Row>
    </Container>
     <Container className='container_news'>
       <Row className='row23'>
@@ -146,7 +145,7 @@ const Home = () => {
         <Card.Title className='card_title'>{News['Card.Title']}</Card.Title>
         <Card.Text className='card_text'>
           <p className='card_paragraph' style={{lineHeight:"1"}}>{News['Card.Text']}</p>
-        <Card.Link className='card_link' style={{textDecoration:"none",color:"#060672"}}><b>Read More...</b></Card.Link>
+        <Card.Link className='card_link' style={{textDecoration:"none",color:"#82d5ec"}}><b>Read More...</b></Card.Link>
         </Card.Text>
       </Card.Body>
       <Card.Body>

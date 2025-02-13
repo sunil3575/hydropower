@@ -1,17 +1,7 @@
 
 import './Gallary.css';
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import boardofmembers from '../Components/BoardofDirectors/pic1.jpg'
-import members from '../Components/BoardofDirectors/pic2.jpeg'
-import members1 from '../Components/BoardofDirectors/pic3.jpg'
-import members2 from '../Components/BoardofDirectors/pic4.jpg'
-import members3 from '../Components/BoardofDirectors/pic5.png'
-import members4 from '../Components/BoardofDirectors/pic6.jpeg'
-import team_members1 from '../Components/Home/Team_Members/Team_members1.jpg'
-import team_members2 from '../Components/Home/Team_Members/Team_members2.webp'
-import team_members3 from '../Components/Home/Team_Members/Team_members3.webp'
-import team_members4 from '../Components/Home/Team_Members/Team_members4.webp'
-import team_members5 from '../Components/Home/Team_Members/Team_members5.jpg'
+import 'lightgallery/css/lightgallery.css';
 import "lightgallery.js/dist/css/lightgallery.css";
 import LightGallery from 'lightgallery/react';
 import 'lightgallery/css/lightgallery.css';
@@ -31,88 +21,101 @@ import lgMediumZoom from 'lightgallery/plugins/mediumZoom';
 import  lgFullscreen from 'lightgallery/plugins/fullscreen';
 import gallary from '../Components/Images/hydropowr.jpg';
 import gallary1 from '../Components/Images/hydropower2.png';
-
-
-
-
-
+import gallary2 from '../Components/Images/1.png';
+import gallary3 from '../Components/Images/10.png';
+import gallary4 from '../Components/Images/11.png';
+import gallary5 from '../Components/Images/12.png';
+import gallary6 from '../Components/Images/2.png';
+import gallary7 from '../Components/Images/3.png';
+import gallary8 from '../Components/Images/4.png';
+import gallary9 from '../Components/Images/5.png';
+import gallary10 from '../Components/Images/6.png';
+import gallary11 from '../Components/Images/8.png';
+import gallary12 from '../Components/Images/whatup.jpg';
+import gallary13 from '../Components/BoardofDirectors/Arjun Pathak.jpg';
+import gallary14 from '../Components/BoardofDirectors/hari_parsad_panday.jpg';
+import { cloneElement } from 'react';
 
 const Gallary = () => {
-  const directors=[boardofmembers,members,members1,members2,members3,members4];
-  const team =[team_members1,team_members2,team_members3,team_members4,team_members5];
-  const memberss=[members4];
+  
+   const images =[
+    {
+      src:gallary,alt:"image"
+    },
+    {
+      src:gallary1,alt:"image1"
+    },
+    {
+      src:gallary2,alt:"image2"
+    },
+    {
+      src:gallary3,alt:"image3"
+    },
+    {
+      src:gallary4,alt:"image4"
+    },
+    {
+      src:gallary5,alt:"image5"
+    },
+    {
+      src:gallary6,alt:"image6"
+    },
+    {
+      src:gallary7,alt:"image7"
+    },
+    {
+      src:gallary8,alt:"image8"
+    },
+    {
+      src:gallary9,alt:"image9"
+    },
+    {
+      src:gallary10,alt:"image10"
+    },
+    {
+      src:gallary11,alt:"image11"
+    },
+    {
+      src:gallary12,alt:"image12"
+    },
+    {
+      src:gallary13,alt:"image13",
+    },
+    {
+      src:gallary14,alt:"image14"
+    }
+
+   ];
 
   const onInit = () => {
     console.log('lightGallery has been initialized');
 };
-  
+
   return(
      <Container className='gallery_container'>
-      <h1 className='gallery_heading'>Our Gallery</h1>
+      <h1 className='gallery_heading'>Our Gallary</h1>
      <Row className='gallery_row'>
       <Col className='gallery_column'>
-      {/* {directors.map((image,index)=>( */}
     <LightGallery
-    
+         closable={true}
         onInit={onInit}
-        speed={500}
-        plugins={[lgThumbnail,lgFullscreen,lgAutoplay,lgRotate,lgPager]}>
-    <Image className='img499'  src={gallary} alt='image'/>
-    <Image className='img499'  src={gallary1}   alt='image'/>
-    <Image className='img499'  src={members1}  alt='image'/>
-    <Image className='img499'  src={members2}   alt='image'/>
-    <Image className='img499'  src={members3}  alt='image'/> 
+        speed={1000}
+        plugins={[lgThumbnail,lgFullscreen,lgRotate]}>
    
-  
-    
-   
-    {/* ))} */}
-   
-    {/* <Row className='second_gallery_row'> */}
-      {/* <Col className='second_gallery_column'> */}
-       {/* {team.map((image,index)=>(  */}
-    {/* <LightGallery
-        onInit={onInit}
-        speed={500} */}
-        {/* // plugins={[lgZoom, lgAutoplay, lgComment, lgFullscreen , lgHash, lgPager, lgRotate, lgShare, lgThumbnail, lgVideo, lgMediumZoom]}>   
-    plugins={[lgThumbnail,lgFullscreen,lgAutoplay,lgRotate,lgPager]}> */}
-    
-    
-    {/* <Image className='img3'  src={team_members1} alt='image'/>
-    <Image className='img3'  src={team_members2} alt='image'/>
-    <Image className='img3' src={team_members3} alt='image'/> 
-    <Image className='img3' src={team_members4}   alt='image'/>
-    <Image className='img3' src={team_members5}  alt='image'/> */}
-   <Image className='img499'  src={team_members1} alt='image'/>
-    <Image className='img499'  src={team_members2} alt='image'/>
-    <Image className='img499' src={team_members3} alt='image'/> 
-    <Image className='img499' src={team_members4}   alt='image'/>
-    <Image className='img499' src={team_members5}  alt='image'/>
-    
-    
-     
-    
-     {/* <Row className='third_gallery_row'> */}
-     {/* <Col className='third_column'> */}
-      {/* {memberss.map((image,index)=>( */}
-    
-        {/* onInit={onInit}
-        speed={500}
-        plugins={[lgThumbnail,lgFullscreen,lgAutoplay,lgRotate,lgPager]}>  */}
-            
-             
-            <Image className='img499' src={members4} alt='image'/>
-            <Image className='img499'/>
-            
-            
            
+           {images.map((image, index) => (
+          <a key={index} href={image.src}>
+            <img className='img499' src={image.src} alt={image.alt}/>
+          </a>
+        ))}    
        </LightGallery>
-       
        
        </Col>
        </Row>
      </Container>
+     
  )
  }
+ 
 
 export default Gallary;
